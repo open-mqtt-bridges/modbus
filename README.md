@@ -3,17 +3,17 @@
 
   # Modbus MQTT Bridge
 
-  [![Test](https://github.com/tobiaswaelde/modbus-mqtt-bridge/actions/workflows/test.yml/badge.svg)](https://github.com/tobiaswaelde/modbus-mqtt-bridge/actions/workflows/test.yml)
-  [![Docker](https://github.com/tobiaswaelde/modbus-mqtt-bridge/actions/workflows/docker.yml/badge.svg)](https://github.com/tobiaswaelde/modbus-mqtt-bridge/actions/workflows/docker.yml)
-  [![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/tobiaswaelde/modbus-mqtt-bridge/blob/master/Cargo.toml)
-  [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue.svg)](https://github.com/tobiaswaelde/modbus-mqtt-bridge/blob/master/LICENSE)
+  [![Test](https://github.com/open-mqtt-bridges/modbus/actions/workflows/test.yml/badge.svg)](https://github.com/open-mqtt-bridges/modbus/actions/workflows/test.yml)
+  [![Docker](https://github.com/open-mqtt-bridges/modbus/actions/workflows/docker.yml/badge.svg)](https://github.com/open-mqtt-bridges/modbus/actions/workflows/docker.yml)
+  [![Version](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/open-mqtt-bridges/modbus/blob/master/Cargo.toml)
+  [![License](https://img.shields.io/badge/license-GPL--3.0--or--later-blue.svg)](https://github.com/open-mqtt-bridges/modbus/blob/master/LICENSE)
 
   Rust bridge between Modbus TCP devices and MQTT topics.
 
-  [Documentation](https://tobiaswaelde.github.io/modbus-mqtt-bridge/) |
-  [Getting Started](https://tobiaswaelde.github.io/modbus-mqtt-bridge/getting-started) |
-  [Configuration](https://tobiaswaelde.github.io/modbus-mqtt-bridge/configuration) |
-  [Deployment](https://tobiaswaelde.github.io/modbus-mqtt-bridge/deployment)
+  [Documentation](https://open-mqtt-bridges.github.io/modbus/) |
+  [Getting Started](https://open-mqtt-bridges.github.io/modbus/getting-started) |
+  [Configuration](https://open-mqtt-bridges.github.io/modbus/configuration) |
+  [Deployment](https://open-mqtt-bridges.github.io/modbus/deployment)
 </div>
 
 ## Table of Contents 📚
@@ -49,7 +49,7 @@ Use it when you want one stable integration layer between PLCs/inverters/meters 
 ### 1. 🚀 Run with Docker Compose (recommended)
 
 ```bash
-git clone https://github.com/tobiaswaelde/modbus-mqtt-bridge.git
+git clone https://github.com/open-mqtt-bridges/modbus.git
 cd modbus-mqtt-bridge
 cp config/config.example.yml config/config.yml
 # edit config/config.yml for your broker and devices
@@ -111,7 +111,7 @@ sources:
         data_type: f32
 ```
 
-Full config reference: https://tobiaswaelde.github.io/modbus-mqtt-bridge/configuration
+Full config reference: https://open-mqtt-bridges.github.io/modbus/configuration
 
 ## Run locally (without Docker)
 
@@ -147,3 +147,7 @@ See [CHANGELOG.md](CHANGELOG.md).
 
 Licensed under **GNU GPL v3.0 or later** (`GPL-3.0-or-later`).
 See [LICENSE](LICENSE).
+
+## Contributing
+
+See the [development guide](docs/development.md) for the pinned toolchain, checks and Spec Kit usage, and the [organization contribution guide](https://github.com/open-mqtt-bridges/.github/blob/main/CONTRIBUTING.md) for pull requests.
