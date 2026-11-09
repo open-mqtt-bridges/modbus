@@ -31,7 +31,7 @@ const config = defineConfig({
       { text: "Operations", link: "/operations" }
     ],
     editLink: {
-      pattern: "https://github.com/tobiaswaelde/modbus/edit/master/docs/:path",
+      pattern: "https://github.com/open-mqtt-bridges/modbus/edit/master/docs/:path",
       text: "Edit this page on GitHub"
     },
     lastUpdatedText: "Last updated",
