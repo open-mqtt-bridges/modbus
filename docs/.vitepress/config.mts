@@ -4,7 +4,7 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 const config = defineConfig({
   title: "Modbus MQTT Bridge",
   description: "Documentation for setup, configuration, operations, and integrations",
-  base: "/modbus-mqtt-bridge/",
+  base: "/modbus/",
   cleanUrls: true,
   lastUpdated: true,
   themeConfig: {
@@ -31,12 +31,12 @@ const config = defineConfig({
       { text: "Operations", link: "/operations" }
     ],
     editLink: {
-      pattern: "https://github.com/tobiaswaelde/modbus-mqtt-bridge/edit/master/docs/:path",
+      pattern: "https://github.com/tobiaswaelde/modbus/edit/master/docs/:path",
       text: "Edit this page on GitHub"
     },
     lastUpdatedText: "Last updated",
     socialLinks: [
-      { icon: "github", link: "https://github.com/tobiaswaelde/modbus-mqtt-bridge" }
+      { icon: "github", link: "https://github.com/open-mqtt-bridges/modbus" }
     ],
     footer: {
       message: "Released under GPL-3.0-or-later",
