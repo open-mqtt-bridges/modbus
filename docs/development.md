@@ -2,7 +2,7 @@
 
 ## Toolchain and checks
 
-The manifest, owning lockfile and existing CI define the toolchain. Use `none` where applicable. Preserve the established formatter/linter configuration; do not edit generated or vendored code. Run these commands from the repository root:
+The manifest, owning lockfile and existing CI define the toolchain. Use Cargo for the bridge and npm for the docs. Preserve the established formatter/linter configuration; do not edit generated or vendored code. Run these commands from the repository root:
 
 - `cargo fmt --all --check`
 - `cargo clippy --all-targets --all-features -- -D warnings`
