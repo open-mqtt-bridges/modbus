@@ -13,6 +13,14 @@ and this project follows [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ### Fixed
 
+## [1.0.3] - 2026-11-09
+
+### Changed
+
+- Updated Rust, documentation, container and workflow dependencies with compatible stable releases.
+- Enabled available dependency and source security checks; documentation dependency audits pass.
+- Integrated documentation dependency updates from #4 and #5 without restoring older lockfiles.
+
 ## [1.0.2] - 2026-04-25
 
 ### Added
