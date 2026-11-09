@@ -13,3 +13,7 @@ Issue: https://github.com/open-mqtt-bridges/modbus/issues/3
 Preserve MQTT topics, payloads, retention, configuration keys and deployment/package identifiers. Use existing package-manager and runtime pins. No prereleases, forced peer/engine acceptance, relaxed security rules, unrelated formatting, releases or deployments. Keep archived idm-energy untouched. TypeScript 7 requires compatible parser/lint/test peer ranges. Roborock 3.40.3 requires official Node 26 engine support. Preserve old feature specifications and the website logo branch.
 
 All adopted updates require clean immutable installation, applicable local checks and current-head CI. Fix actionable advisories; explicitly record unavailable security features, unresolved advisories and deferred targets. Merge approval remains separate.
+
+## Authorized release follow-up
+
+The user authorizes merging all PRs and publishing/deploying updated versions. Release 1.0.3 includes the validated dependency/security maintenance. Preserve MQTT and configuration contracts and existing image identifiers. Documentation dependency PRs #4 and #5 are integrated without restoring outdated vulnerable lockfiles.
