@@ -13,7 +13,7 @@ This guide gets the bridge from zero to first MQTT payload.
 ## 1. Clone and prepare config
 
 ```bash
-git clone https://github.com/tobiaswaelde/modbus-mqtt-bridge.git
+git clone https://github.com/open-mqtt-bridges/modbus.git
 cd modbus-mqtt-bridge
 cp config/config.example.yml config/config.yml
 ```
